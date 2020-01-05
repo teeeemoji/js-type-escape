@@ -1,5 +1,14 @@
 # js-type-escape
 
+![Travis (.com)](https://img.shields.io/travis/com/teeeemoji/js-type-escape)
+![Codecov](https://img.shields.io/codecov/c/github/teeeemoji/js-type-escape?token=8b1462035af64c20adae6bb75dd2cda6)
+![npm](https://img.shields.io/npm/v/js-type-escape)
+![npm](https://img.shields.io/npm/dy/js-type-escape)
+![npm bundle size](https://img.shields.io/bundlephobia/min/js-type-escape?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/teeeemoji/js-type-escape)
+![NPM](https://img.shields.io/npm/l/js-type-escape)
+
+
 Convert JS value to escape string, and then you can convert back.
 `js-type-escape`'s main API `processValue2EscapeStr` converts Javascript Value to an escape string, and another API `processEscapeStr2Value` converts escape string to Javascript Value with correct date type. 
 
