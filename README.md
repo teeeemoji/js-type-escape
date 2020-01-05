@@ -20,6 +20,8 @@ $ npm install js-type-escape
 
 ## Usage
 
+**Important:** Only **primitive types, Object** and **Array** are supported, **function, Date** are not supported.
+
 ```javascript
 import {processValue2EscapeStr} from 'js-type-escape'
 processValue2EscapeStr('js-type-escape') // 1__js-type-escape
