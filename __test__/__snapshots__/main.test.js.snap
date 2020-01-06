@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`process escape string to value with date type process value of Object 1`] = `
+Object {
+  "a": Array [
+    1,
+    "2",
+    "apple",
+  ],
+  "b": true,
+  "c": Object {
+    "d": "e",
+  },
+}
+`;
+
+exports[`process escape string to value with date type process value of array 1`] = `
+Array [
+  1,
+  2,
+  "567",
+  "asdf",
+]
+`;
+
+exports[`process escape string to value with date type process value of boolean 1`] = `true`;
+
+exports[`process escape string to value with date type process value of null 1`] = `null`;
+
+exports[`process escape string to value with date type process value of number 1`] = `NaN`;
+
+exports[`process escape string to value with date type process value of number 2`] = `1000`;
+
+exports[`process escape string to value with date type process value of string 1`] = `"js-type-escape"`;
+
+exports[`process escape string to value with date type process value of undefined 1`] = `undefined`;
+
+exports[`process value to escape string process Object value 1`] = `"3__{\\"a\\":[1,\\"2\\",\\"apple\\"],\\"b\\":true,\\"c\\":{\\"d\\":\\"e\\"}}"`;
+
+exports[`process value to escape string process array value 1`] = `"3__[1,2,\\"567\\",\\"asdf\\"]"`;
+
+exports[`process value to escape string process boolean value 1`] = `"5__true"`;
+
+exports[`process value to escape string process null value 1`] = `"3__null"`;
+
+exports[`process value to escape string process number value 1`] = `"1__NaN"`;
+
+exports[`process value to escape string process number value 2`] = `"1__1000"`;
+
+exports[`process value to escape string process string value 1`] = `"2__js-type-escape"`;
+
+exports[`process value to escape string process undefined value 1`] = `"4__"`;
